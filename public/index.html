@@ -19,6 +19,10 @@
             justify-content: center;
         }
 
+        .container {
+            background: white;
+        }
+
         h1 {
             font-family: "Jersey 20 Charted", sans-serif;
             font-weight: 400;
@@ -45,16 +49,35 @@
             letter-spacing: 0.2mm;
             font-size: 14px;
             font-weight: 100;
+            overflow-x: auto;
         }
 
         li {
             font-size: 14px;
         }
+
+        @media (max-width: 600px) {
+            .route h2 {
+                font-size: 1.2em;
+            }
+
+            .route pre {
+                font-size: 12px;
+            }
+
+            li {
+                font-size: 12px;
+            }
+
+            .container {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 
 <body>
-    <div>
+    <div class="container">
         <h1>API Documentation</h1>
 
         <div class="route">
@@ -70,20 +93,20 @@
                 <li><code>subscribedDate: </code> Date of Subscription.</li>
             </ul>
             <pre>
-            [
-                {
-                "_id": "6651e04bb2ae8d06e3df10e8",   
-                "name": "Jeread Krus",
-                "subscribedChannel": "CNET",
-                "subscribedDate": "2024-05-25T12:57:47.677Z"
-                },
-                {
-                "_id": "6651e04bb2ae8d06e3df10e9",
-                "name": "John Doe",
-                "subscribedChannel": "freeCodeCamp.org",
-                "subscribedDate": "2024-05-25T12:57:47.677Z"
-                },
-            ]
+    [
+        {
+        "_id": "6651e04bb2ae8d06e3df10e8",   
+        "name": "Jeread Krus",
+        "subscribedChannel": "CNET",
+        "subscribedDate": "2024-05-25T12:57:47.677Z"
+        },
+        {
+        "_id": "6651e04bb2ae8d06e3df10e9",
+        "name": "John Doe",
+        "subscribedChannel": "freeCodeCamp.org",
+        "subscribedDate": "2024-05-25T12:57:47.677Z"
+        },
+    ]
         </pre>
         </div>
         <div class="route">
@@ -98,16 +121,16 @@
                 <li><code>subscribedChannel: </code> Name of channel.</li>
             </ul>
             <pre>
-            [
-             {
-               "name": "Jeread Krus",   
-               "subscribedChannel": "CNET"
-             },
-             {
-               "name": "John Doe",
-               "subscribedChannel": "freeCodeCamp.org"
-             },
-            ]
+    [
+        {
+        "name": "Jeread Krus",   
+        "subscribedChannel": "CNET"
+        },
+        {
+        "name": "John Doe",
+        "subscribedChannel": "freeCodeCamp.org"
+        },
+    ]
         </pre>
         </div>
         <div class="route">
@@ -125,13 +148,12 @@
                 <li><code>subscribedDate: </code> Date of Subscription.</li>
             </ul>
             <pre>
-            Response: 
-            {
-                "_id": "6651e04bb2ae8d06e3df10e8",
-                "name": "Jeread Krus",
-                "subscribedChannel": "CNET",
-                "subscribedDate": "2024-05-25T12:57:47.677Z"      
-            }
+    {
+        "_id": "6651e04bb2ae8d06e3df10e8",
+        "name": "Jeread Krus",
+        "subscribedChannel": "CNET",
+        "subscribedDate": "2024-05-25T12:57:47.677Z"      
+    }
         </pre>
         </div>
     </div>
