@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 3000;
-
+const path = require("path")
 
 // Middleware
 app.use(express.json());
@@ -13,7 +13,9 @@ app.use(express.json());
 // Routes
 app.use('/subscribers', subscriberRoutes);
 
-app.use(express.static('public'));
+const staticPath = path.join(__dirname,"./public")
+
+app.use("/",express.static(staticPath))
 
 mongoose.connect(process.env.MONGODB_URI,{ useNewUrlParser: true, useUnifiedTopology: true });
 
