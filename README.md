@@ -26,22 +26,22 @@ This project aims to create a backend API for managing YouTube subscribers using
 ## How to Run Locally
 To run this project locally, follow these steps:
 
-* Clone the repository:
+1. Clone the repository:
 ####
     git clone https://github.com/ankit-devhub/youtube-subscribers-backend.git
     
-* Navigate to the project directory in your terminal.
+2. Navigate to the project directory in your terminal.
 
-* Install dependencies:
+3. Install dependencies:
 
 ####
     npm install
-* Start the server:
+4. Start the server:
 ####  
     node index.js
-* Open any browser and visit:
+5. Open any browser and visit:
 ####
-    localhost:000
+    http://localhost:5000
 
 ## Deployment
 This project is deployed and accessible at https://get-youtube-subscribers-nu.vercel.app
