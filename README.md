@@ -27,7 +27,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
 ####
-    git clone https://github.com/ankit-devhub/youtube-subscribers-backend.git
+    git clone https://github.com/parthpatil01/get-youtube-subscribers.git
     
 2. Navigate to the project directory in your terminal.
 ####
