@@ -49,7 +49,7 @@ To run this project locally, follow these steps:
 ## API Endpoints
 
 * GET /subscribers: Retrieve all subscribers from the database.
-* GET /subscribers/names: Retrieves list of subscriber names and their subscribed channels exclusively..
+* GET /subscribers/names: Retrieves list of subscriber names and their subscribed channels exclusively.
 * GET /subscribers/:id: Retrieve specific subscriber data from the database using a unique ID.
 
 
