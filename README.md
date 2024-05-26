@@ -31,17 +31,28 @@ To run this project locally, follow these steps:
     git clone https://github.com/ankit-devhub/youtube-subscribers-backend.git
     
 2. Navigate to the project directory in your terminal.
+####
+    cd get-youtube-subscribers
 
-3. Install dependencies:
-
+4. Install dependencies:
 ####
     npm install
+    
 4. Start the server:
 ####  
     node index.js
+    
 5. Open any browser and visit:
 ####
     http://localhost:5000
+
+
+## API Endpoints
+
+* GET /subscribers: Retrieve all subscribers from the database.
+* GET /subscribers/names: Retrieves list of subscriber names and their subscribed channels exclusively..
+* GET /subscribers/:id: Retrieve specific subscriber data from the database using a unique ID.
+
 
 ## Deployment
 This project is deployed and accessible at https://get-youtube-subscribers-nu.vercel.app
