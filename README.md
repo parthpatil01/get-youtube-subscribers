@@ -15,7 +15,6 @@ This project aims to create a backend API for managing YouTube subscribers using
 * Retrieve specific data from the database using unique IDs.
 * Access subscriber lists containing names and subscribed channels exclusively.
 * Retrieve specific data from the database through designated routes.
-* Fetch all subscribers from a remotely hosted database.
 
 ## Technology/Languages Used
 * Express.js
